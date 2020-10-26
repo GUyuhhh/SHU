@@ -23,7 +23,8 @@ table 50101 Course
         }
         field(60; Price; Decimal) { }
         field(70; Active; Boolean) { }
-        field(80; Diddiculty; Integer) { }
+        field(80; Difficulty; Integer) { }
+        field(85; Diddiculty; Integer) { }
         field(90; PassingRate; Integer) { }
     }
 
