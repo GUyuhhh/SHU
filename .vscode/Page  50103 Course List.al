@@ -85,6 +85,14 @@ page 50103 "Course List"
                     Xmlport.Run(50107, false, false);
                 end;
             }
+            action("Course Report")
+            {
+                Caption = 'show the Course Report';
+                trigger OnAction();
+                begin
+                    report.Run(50109, false, false);
+                end;
+            }
         }
     }
     var
